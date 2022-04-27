@@ -1,0 +1,8 @@
+.Checkout {
+  overflow-x: hidden;
+  &-Wrapper {
+    @include after-mobile {
+      grid-template-rows: repeat(2, auto);
+    }
+  }
+}
